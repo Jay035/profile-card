@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="dp.jpeg"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Chibuike Ukandu</h2>
+      <h4 data-testid="jobTitle">Frontend Engineer</h4>
+      <p data-testid="shortBio">
+        I am a passionate frontend engineer, popularly known as CodexJay, with experience in building
+        responsive and intuitive web interfaces using Next.js, TypeScript, JavaScript and Tailwind CSS.
+      </p>
+      <p data-testid="currentLocation">Port Harcourt, Nigeria</p>
+      <p>
+        Email:
+        <a href="mailto:codexjay08@gmail.com" data-testid="emailAddress"
+          >codexjay08@gmail.com</a
+        >
+      </p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/Jay035" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/chibuike-ukandu" target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://twitter.com/Chibuike035" target="_blank">Twitter</a>
+      </div>
+      <p data-testid="currentTimeUTC" id="currentTimeUTC"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
